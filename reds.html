@@ -156,20 +156,33 @@
         document.getElementById('loading-overlay').style.display = 'none';
     }
     function openPlayerModal(player) {
+        // Always reset modal opacity and display
+        const modal = document.getElementById('player-modal');
+        modal.style.opacity = '0';
+        modal.style.display = 'flex';
+        setTimeout(() => { modal.style.opacity = '1'; }, 10);
+        document.body.style.overflow = 'hidden';
+        // Always update modal content
         document.getElementById('modal-player-image').src = player.image;
         document.getElementById('modal-player-name').textContent = player.name;
         document.getElementById('modal-player-dcb').textContent = player.dcbId;
         document.getElementById('modal-player-team').textContent = 'Reds';
         document.getElementById('modal-player-status').textContent = 'Active';
         document.getElementById('modal-dcb-link').href = player.dcbProfileUrl;
-        document.getElementById('player-modal').style.display = 'flex';
-        document.body.style.overflow = 'hidden';
     }
     function closePlayerModal() {
-        document.getElementById('player-modal').style.opacity = '0';
+        const modal = document.getElementById('player-modal');
+        modal.style.opacity = '0';
         setTimeout(() => {
-            document.getElementById('player-modal').style.display = 'none';
+            modal.style.display = 'none';
             document.body.style.overflow = 'auto';
+            // Optionally clear modal content
+            document.getElementById('modal-player-image').src = '';
+            document.getElementById('modal-player-name').textContent = '';
+            document.getElementById('modal-player-dcb').textContent = '';
+            document.getElementById('modal-player-team').textContent = '';
+            document.getElementById('modal-player-status').textContent = '';
+            document.getElementById('modal-dcb-link').href = '#';
         }, 300);
     }
     document.addEventListener('DOMContentLoaded', loadReds);
