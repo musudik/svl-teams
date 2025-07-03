@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV Lohhof Cricket - Reds Team</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/images/Logo2.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/" class="nav-link">
+                    <img src="assets/images/Logo2.png" alt="SVL Cricket Club" class="logo-nav">
+                    <span class="club-name">SV Lohhof Cricket</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="reds.html" class="nav-link active"><i class="fas fa-fire"></i> <span>Reds</span></a></li>
+                <li class="nav-item"><a href="blacks.html" class="nav-link"><i class="fas fa-shield-alt"></i> <span>Blacks</span></a></li>
+                <li class="nav-item"><a href="whites.html" class="nav-link"><i class="fas fa-star"></i> <span>Whites</span></a></li>
+                <!-- <li class="nav-item"><a href="index.html#contact" class="nav-link"><i class="fas fa-envelope"></i> <span>Contact</span></a></li> -->
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Team Header -->
+    <section class="team-section reds-section" style="padding-top: 120px;">
+        <div class="container">
+            <div class="team-header">
+                <div class="team-title">
+                    <i class="fas fa-fire team-icon"></i>
+                    <h2>REDS TEAM</h2>
+                    <p class="team-motto">Fire & Passion</p>
+                </div>
+                <div class="team-stats">
+                    <div class="team-count">
+                        <span class="count-number" id="reds-count">0</span>
+                        <span class="count-label">Players</span>
+                    </div>
+                </div>
+            </div>
+            <div class="players-grid" id="reds-grid">
+                <!-- Players will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Player Preview Modal -->
+    <div id="player-modal" class="player-modal">
+        <div class="modal-overlay" onclick="closePlayerModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closePlayerModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <div class="player-preview-vertical">
+                    <div class="player-image-full">
+                        <img id="modal-player-image" src="" alt="Player Photo">
+                    </div>
+                    <div class="player-info-vertical">
+                        <h3 id="modal-player-name"></h3>
+                        <div class="player-details-vertical">
+                            <div class="detail-item"><span class="label">DCB ID:</span> <span class="value" id="modal-player-dcb"></span></div>
+                            <div class="detail-item"><span class="label">Team:</span> <span class="value" id="modal-player-team"></span></div>
+                            <div class="detail-item"><span class="label">Status:</span> <span class="value status-active" id="modal-player-status">Active</span></div>
+                        </div>
+                        <div class="modal-actions-vertical">
+                            <a id="modal-dcb-link" href="#" target="_blank" class="dcb-button">
+                                <i class="fas fa-external-link-alt"></i>
+                                View DCB Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/Logo2.png" alt="SVL Cricket Club" class="footer-logo-img">
+                    <div class="footer-text">
+                        <h3>SV Lohhof Cricket</h3>
+                        <p>Elite Cricket Teams</p>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-year">© 2025 SV Lohhof Cricket</div>
+                    <div class="footer-powered">
+                        Powered by <a href="https://www.fkgpt.dev" target="_blank" rel="noopener">www.fkgpt.dev</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p>Loading Players...</p>
+        </div>
+    </div>
+
+    <script>
+    // Minimal JS to load only Reds players
+    let players = [];
+    async function loadReds() {
+        document.getElementById('loading-overlay').style.display = 'flex';
+        const res = await fetch('data/players.json');
+        const data = await res.json();
+        players = data.teams.reds.players;
+        document.getElementById('reds-count').textContent = players.length;
+        const grid = document.getElementById('reds-grid');
+        grid.innerHTML = '';
+        players.sort((a, b) => a.name.localeCompare(b.name));
+        players.forEach((player, idx) => {
+            const card = document.createElement('div');
+            card.className = 'player-card';
+            card.dataset.playerId = player.id;
+            // Use a random placeholder QR code for now
+            const qrCode = player.dcbProfileUrl;
+            card.innerHTML = `
+                <div class="player-image">
+                    <img src="${player.dp}" alt="${player.name}" onerror="this.style.display='none'; this.parentElement.style.background='linear-gradient(135deg, #2a2a2a, #444)'; this.parentElement.innerHTML='<i class=\\'fas fa-user\\' style=\\'font-size: 3rem; color: #666; display: flex; align-items: center; justify-content: center; height: 100%;\\'></i>';">
+                </div>
+                <h3 class="player-name">${player.name}</h3>
+                <p class="player-dcb">DCB ID: ${player.dcbId}</p>
+                <span class="player-profile-badge">Profile</span>
+                <a class="spielerpass-link" href="${qrCode}" target="_blank">
+                    <i class="fas fa-qrcode"></i> Spielerpass
+                </a>
+            `;
+            card.onclick = () => openPlayerModal(player);
+            
+            // Add click handler to Spielerpass link to prevent modal opening
+            const spielerpassLink = card.querySelector('.spielerpass-link');
+            spielerpassLink.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+            
+            grid.appendChild(card);
+        });
+        document.getElementById('loading-overlay').style.display = 'none';
+    }
+    function openPlayerModal(player) {
+        document.getElementById('modal-player-image').src = player.image;
+        document.getElementById('modal-player-name').textContent = player.name;
+        document.getElementById('modal-player-dcb').textContent = player.dcbId;
+        document.getElementById('modal-player-team').textContent = 'Reds';
+        document.getElementById('modal-player-status').textContent = 'Active';
+        document.getElementById('modal-dcb-link').href = player.dcbProfileUrl;
+        document.getElementById('player-modal').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    }
+    function closePlayerModal() {
+        document.getElementById('player-modal').style.opacity = '0';
+        setTimeout(() => {
+            document.getElementById('player-modal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }, 300);
+    }
+    document.addEventListener('DOMContentLoaded', loadReds);
+    </script>
+</body>
+</html> 

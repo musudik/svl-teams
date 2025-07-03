@@ -1,0 +1,24 @@
+# DCB Documents Directory
+
+This directory contains the DCB ID documents (PDFs) for all players.
+
+## File Naming Convention
+- Use the exact DCB ID as the filename
+- Include the .pdf extension
+- Example: DCB0M33631.pdf
+
+## Document Requirements
+- Official DCB player ID documents
+- Must contain QR code for verification
+- File size should be under 5MB
+- PDF format only
+
+## Adding Documents
+1. Obtain the official DCB ID document for the player
+2. Save it with the exact DCB ID as filename
+3. Place in this directory
+4. Ensure the filename matches the dcbId field in players.json
+
+## Security Note
+These documents will be publicly accessible when hosted on GitHub Pages.
+Ensure they contain only necessary information for player identification. 

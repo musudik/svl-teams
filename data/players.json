@@ -1,0 +1,655 @@
+{
+  "teams": {
+    "reds": {
+      "name": "Reds",
+      "motto": "Fire & Passion",
+      "color": "#dc2626",
+      "players": [
+        {
+          "id": "aamir_afridi",
+          "name": "Aamir Afridi",
+          "dcbId": "DCB0M33631",
+          "dateOfBirth": "1997-03-09",
+          "validFrom": "2023-04-27",
+          "image": "assets/images/players/aamir_afridi.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/tfdddi61fn",
+          "dp": "assets/images/players/dp/aamir_afridi.jpg"
+        },
+        {
+          "id": "arun_karthik_ganesan",
+          "name": "Arun Karthik Ganesan",
+          "dcbId": "DCB0M41681",
+          "dateOfBirth": "1985-11-10",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/arun_karthik_ganesan.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/o4bw85s6an",
+          "dp": "assets/images/players/dp/arun_karthik_ganesan.jpg"
+        },
+        {
+          "id": "avinash_mishra",
+          "name": "Avinash Mishra",
+          "dcbId": "DCB0M16086",
+          "dateOfBirth": "1990-07-17",
+          "validFrom": "2022-04-22",
+          "image": "assets/images/players/avinash_mishra.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/pgwrvu8dw2",
+          "dp": "assets/images/players/dp/avinash_mishra.jpg"
+        },
+        {
+          "id": "harsh_gupta",
+          "name": "Harsh Gupta",
+          "dcbId": "DCB0M26805",
+          "dateOfBirth": "1991-01-23",
+          "validFrom": "2022-07-01",
+          "image": "assets/images/players/harsh_gupta.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/lcmstffiz",
+          "dp": "assets/images/players/dp/harsh_gupta.jpg"
+        },
+        {
+          "id": "javadeva_virupakshy_yelburgi",
+          "name": "Javadeva Virupakshy Yelburgi",
+          "dcbId": "DCB0M57588",
+          "dateOfBirth": "1995-05-22",
+          "validFrom": "2023-04-07",
+          "image": "assets/images/players/javadeva_virupakshy_yelburgi.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/uxu5vndljm",
+          "dp": "assets/images/players/dp/javadeva_virupakshy_yelburgi.jpg"
+        },
+        {
+          "id": "khalid_niazi",
+          "name": "Khalid Niazi",
+          "dcbId": "DCB0M56806",
+          "dateOfBirth": "2007-04-30",
+          "validFrom": "2025-04-21",
+          "image": "assets/images/players/khalid_niazi.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/g4z6rzci8",
+          "dp": "assets/images/players/dp/khalid_niazi.jpg"
+        },
+        {
+          "id": "krishna_kamlashankar_yadav",
+          "name": "Krishna Kamlashankar Yadav",
+          "dcbId": "DCB0M12248",
+          "dateOfBirth": "1997-09-05",
+          "validFrom": "2024-03-27",
+          "image": "assets/images/players/krishna_kamlashankar_yadav.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/dtprgnnxez",
+          "dp": "assets/images/players/dp/krishna_kamlashankar_yadav.jpg"
+        },
+        {
+          "id": "manoj_dinakaran",
+          "name": "Manoj Dinakaran",
+          "dcbId": "DCB0M41115",
+          "dateOfBirth": "1986-10-02",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/manoj_dinakaran.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/rhuhl83fmh",
+          "dp": "assets/images/players/dp/manoj_dinakaran.jpg"
+        },
+        {
+          "id": "muhammad_saeed",
+          "name": "Muhammad Saeed",
+          "dcbId": "DCB0M38628",
+          "dateOfBirth": "1999-02-19",
+          "validFrom": "2025-05-01",
+          "image": "assets/images/players/muhammad_saeed.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/eymhxeuczd",
+          "dp": "assets/images/players/dp/muhammad_saeed.jpg"
+        },
+        {
+          "id": "muralibabu_santhana_krishnan",
+          "name": "Muralibabu Santhana Krishnan",
+          "dcbId": "DCB0M55937",
+          "dateOfBirth": "1977-12-03",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/muralibabu_santhana_krishnan.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/ffhwsy4fhu",
+          "dp": "assets/images/players/dp/muralibabu_santhana_krishnan.jpg"
+        },
+        {
+          "id": "pavan_pawar_shankar",
+          "name": "Pavan Pawar Shankar",
+          "dcbId": "DCB0M70922",
+          "dateOfBirth": "1987-02-13",
+          "validFrom": "2025-03-25",
+          "image": "assets/images/players/pavan_pawar_shankar.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/xocep1sj06",
+          "dp": "assets/images/players/dp/pavan_pawar_shankar.jpg"
+        },
+        {
+          "id": "samdarshi_rai",
+          "name": "Samdarshi Rai",
+          "dcbId": "DCB0M52930",
+          "dateOfBirth": "1993-05-12",
+          "validFrom": "2022-07-01",
+          "image": "assets/images/players/samdarshi_rai.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/c6l5njfbwc",
+          "dp": "assets/images/players/dp/samdarshi_rai.jpg"
+        },
+        {
+          "id": "vikyath_shivamogga_vijendra",
+          "name": "Vikyath Shivamogga Vijendra",
+          "dcbId": "DCB0M49544",
+          "dateOfBirth": "1996-12-02",
+          "validFrom": "2024-03-22",
+          "image": "assets/images/players/vikyath_shivamogga_vijendra.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/n1w5r0g1i4",
+          "dp": "assets/images/players/dp/vikyath_shivamogga_vijendra.jpg"
+        },
+        {
+          "id": "vinay_kumarmath",
+          "name": "Vinay Kumarmath",
+          "dcbId": "DCB0M65052",
+          "dateOfBirth": "1996-12-18",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/vinay_kumarmath.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/4ixrr7f9qj",
+          "dp": "assets/images/players/dp/vinay_kumarmath.jpg"
+        },
+        {
+          "id": "vinay_prakash",
+          "name": "Vinay Prakash",
+          "dcbId": "DCB0M18948",
+          "dateOfBirth": "1995-10-16",
+          "validFrom": "2024-03-26",
+          "image": "assets/images/players/vinay_prakash.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/uhitbss7g",
+          "dp": "assets/images/players/dp/vinay_prakash.jpg"
+        },
+        {
+          "id": "vishwajeet_patil",
+          "name": "Vishwajeet Patil",
+          "dcbId": "DCB0M64344",
+          "dateOfBirth": "1987-06-09",
+          "validFrom": "2023-05-19",
+          "image": "assets/images/players/vishwajeet_patil.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/xclm0zlrq2",
+          "dp": "assets/images/players/dp/vishwajeet_patil.jpg"
+        }
+      ]
+    },
+    "blacks": {
+      "name": "Blacks",
+      "motto": "Strength & Unity",
+      "color": "#1f2937",
+      "players": [
+        {
+          "id": "amogh_jagadale",
+          "name": "Amogh Jagadale",
+          "dcbId": "DCB0M90599",
+          "dateOfBirth": "1993-09-06",
+          "validFrom": "2023-04-10",
+          "image": "assets/images/players/amogh_jagadale.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/pi4sc0snjg",
+          "dp": "assets/images/players/dp/amogh_jagadale.jpg"
+        },
+        {
+          "id": "dinesh_satyavarapu",
+          "name": "Dinesh Satyavarapu",
+          "dcbId": "DCB0M16125",
+          "dateOfBirth": "1993-07-03",
+          "validFrom": "2025-03-28",
+          "image": "assets/images/players/dinesh_satyavarapu.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/5jgmgee2pi",
+          "dp": "assets/images/players/dp/dinesh_satyavarapu.jpg"
+        },
+        {
+          "id": "madhu_milan_dhanasekaran",
+          "name": "Madhu Milan Dhanasekaran",
+          "dcbId": "DCB0M66904",
+          "dateOfBirth": "1995-07-03",
+          "validFrom": "2025-03-27",
+          "image": "assets/images/players/madhu_milan_dhanasekaran.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/v3nmu5uiom",
+          "dp": "assets/images/players/dp/madhu_milan_dhanasekaran.jpg"
+        },
+        {
+          "id": "munish_jassi",
+          "name": "Munish Jassi",
+          "dcbId": "DCB0M15713",
+          "dateOfBirth": "1984-12-23",
+          "validFrom": "2023-08-20",
+          "image": "assets/images/players/munish_jassi.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/qgr6cuz1zj",
+          "dp": "assets/images/players/dp/munish_jassi.jpg"
+        },
+        {
+          "id": "nikhilmohan_mangalassery",
+          "name": "Nikhilmohan Mangalassery",
+          "dcbId": "DCB0M30727",
+          "dateOfBirth": "1986-11-30",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/nikhilmohan_mangalassery.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/i1eno5hpre",
+          "dp": "assets/images/players/dp/nikhilmohan_mangalassery.jpg"
+        },
+        {
+          "id": "praneeth_kalagara",
+          "name": "Praneeth Kalagara",
+          "dcbId": "DCB0M57296",
+          "dateOfBirth": "1993-05-26",
+          "validFrom": "2022-08-25",
+          "image": "assets/images/players/praneeth_kalagara.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/36cuz0uxu6",
+          "dp": "assets/images/players/dp/praneeth_kalagara.jpg"
+        },
+        {
+          "id": "praveen_gujjari",
+          "name": "Praveen Gujjari",
+          "dcbId": "DCB0M85360",
+          "dateOfBirth": "1993-11-10",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/praveen_gujjari.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/64ul2b10nv",
+          "dp": "assets/images/players/dp/praveen_gujjari.jpg"
+        },
+        {
+          "id": "rejol_paul",
+          "name": "Rejol Paul",
+          "dcbId": "DCB0M27076",
+          "dateOfBirth": "1984-09-04",
+          "validFrom": "2024-03-26",
+          "image": "assets/images/players/rejol_paul.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/y0v3ldrfmg",
+          "dp": "assets/images/players/dp/rejol_paul.jpg"
+        },
+        {
+          "id": "rishabh_roy",
+          "name": "Rishabh Roy",
+          "dcbId": "DCB0M54838",
+          "dateOfBirth": "1995-12-07",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/rishabh_roy.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/kblphz7s0g",
+          "dp": "assets/images/players/dp/rishabh_roy.jpg"
+        },
+        {
+          "id": "ruman_mohammed_sheikh",
+          "name": "Ruman Mohammed Sheikh",
+          "dcbId": "DCB0M78297",
+          "dateOfBirth": "1990-07-07",
+          "validFrom": "2022-06-12",
+          "image": "assets/images/players/ruman_mohammed_sheikh.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/q7hk2b2452",
+          "dp": "assets/images/players/dp/ruman_mohammed_sheikh.jpg"
+        },
+        {
+          "id": "sajal_kumar_mathur",
+          "name": "Sajal Kumar Mathur",
+          "dcbId": "DCB0M35745",
+          "dateOfBirth": "1988-05-31",
+          "validFrom": "2022-04-22",
+          "image": "assets/images/players/sajal_kumar_mathur.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/tmdoyhbrle",
+          "dp": "assets/images/players/dp/sajal_kumar_mathur.jpg"
+        },
+        {
+          "id": "shreyas_shukla",
+          "name": "Shreyas Shukla",
+          "dcbId": "DCB0M88659",
+          "dateOfBirth": "1993-01-14",
+          "validFrom": "2024-04-15",
+          "image": "assets/images/players/shreyas_shukla.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/q1q9v8fzd",
+          "dp": "assets/images/players/dp/shreyas_shukla.jpg"
+        },
+        {
+          "id": "siddharth_shankar_narayan",
+          "name": "Siddharth Shankar Narayan",
+          "dcbId": "DCB0M63807",
+          "dateOfBirth": "1991-10-29",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/siddharth_shankar_narayan.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/i51dgum8z0",
+          "dp": "assets/images/players/dp/siddharth_shankar_narayan.jpg"
+        },
+        {
+          "id": "vinay_prakash_blacks",
+          "name": "Vinay Prakash",
+          "dcbId": "DCB0M18948",
+          "dateOfBirth": "1995-10-16",
+          "validFrom": "2024-03-26",
+          "image": "assets/images/players/vinay_prakash.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/uhitbss7g",
+          "dp": "assets/images/players/dp/vinay_prakash.jpg"
+        },
+        {
+          "id": "yuvaraj_bennur_basavaraju",
+          "name": "Yuvaraj Bennur Basavaraju",
+          "dcbId": "DCB0M53609",
+          "dateOfBirth": "1990-07-05",
+          "validFrom": "2023-04-05",
+          "image": "assets/images/players/yuvaraj_bennur_basavaraju.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/alu4r69kof",
+          "dp": "assets/images/players/dp/yuvaraj_bennur_basavaraju.jpg"
+        }
+      ]
+    },
+    "whites": {
+      "name": "Whites",
+      "motto": "Excellence & Precision",
+      "color": "#6b7280",
+      "players": [
+        {
+          "id": "adeeb_aadil_tungekar",
+          "name": "Adeeb Aadil Tungekar",
+          "dcbId": "DCB0M40891",
+          "dateOfBirth": "2008-09-24",
+          "validFrom": "2024-05-21",
+          "image": "assets/images/players/adeeb_aadil_tungekar.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/rwubqfosl",
+          "dp": "assets/images/players/dp/adeeb_aadil_tungekar.jpg"
+        },
+        {
+          "id": "ankur_bhatia",
+          "name": "Ankur Bhatia",
+          "dcbId": "DCB0M95634",
+          "dateOfBirth": "1989-03-22",
+          "validFrom": "2022-04-21",
+          "image": "assets/images/players/ankur_bhatia.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/he8ogwve3x",
+          "dp": "assets/images/players/dp/ankur_bhatia.jpg"
+        },
+        {
+          "id": "arjunraj_radjendirane",
+          "name": "Arjunraj Radjendirane",
+          "dcbId": "DCB0M68280",
+          "dateOfBirth": "1989-06-03",
+          "validFrom": "2023-05-16",
+          "image": "assets/images/players/arjunraj_radjendirane.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/yjimdmpcdi",
+          "dp": "assets/images/players/dp/arjunraj_radjendirane.jpg"
+        },
+        {
+          "id": "bhargav_maru",
+          "name": "Bhargav Maru",
+          "dcbId": "DCB0M15869",
+          "dateOfBirth": "1983-11-09",
+          "validFrom": "2023-04-30",
+          "image": "assets/images/players/bhargav_maru.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/0lob916hl6",
+          "dp": "assets/images/players/dp/bhargav_maru.jpg"
+        },
+        {
+          "id": "giso_george",
+          "name": "Giso George",
+          "dcbId": "DCB0M31121",
+          "dateOfBirth": "1976-05-04",
+          "validFrom": "2022-04-21",
+          "image": "assets/images/players/giso_george.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/top8pi75uh",
+          "dp": "assets/images/players/dp/giso_george.jpg"
+        },
+        {
+          "id": "govind_mohan",
+          "name": "Govind Mohan",
+          "dcbId": "DCB0M88868",
+          "dateOfBirth": "1991-03-22",
+          "validFrom": "2022-04-15",
+          "image": "assets/images/players/govind_mohan.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/w15e9u4td7",
+          "dp": "assets/images/players/dp/govind_mohan.jpg"
+        },
+        {
+          "id": "jaymin_patel",
+          "name": "Jaymin Patel",
+          "dcbId": "DCB0M15611",
+          "dateOfBirth": "1990-10-22",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/jaymin_patel.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/km3c6kysr6",
+          "dp": "assets/images/players/dp/jaymin_patel.jpg"
+        },
+        {
+          "id": "johnson_samuel_rajdaniel",
+          "name": "Johnson Samuel Rajdaniel",
+          "dcbId": "DCB0M41931",
+          "dateOfBirth": "1970-02-01",
+          "validFrom": "2023-05-16",
+          "image": "assets/images/players/johnson_samuel_rajdaniel.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/hokil4iwog",
+          "dp": "assets/images/players/dp/johnson_samuel_rajdaniel.jpg"
+        },
+        {
+          "id": "kiran_musudi",
+          "name": "Kiran Musudi",
+          "dcbId": "DCB0M76983",
+          "dateOfBirth": "1980-08-02",
+          "validFrom": "2025-06-30",
+          "image": "assets/images/players/kiran_musudi.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/rdq2bwi0sj",
+          "dp": "assets/images/players/dp/kiran_musudi.jpg"
+        },
+        {
+          "id": "mohanraj_soundara_pandian",
+          "name": "Mohanraj Soundara Pandian",
+          "dcbId": "DCB0M45673",
+          "dateOfBirth": "1977-02-26",
+          "validFrom": "2023-06-28",
+          "image": "assets/images/players/mohanraj_soundara_pandian.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/0jf6dyg2ov",
+          "dp": "assets/images/players/dp/mohanraj_soundara_pandian.jpg"
+        },
+        {
+          "id": "nikhil_halinge",
+          "name": "Nikhil Halinge",
+          "dcbId": "DCB0M13741",
+          "dateOfBirth": "1994-09-24",
+          "validFrom": "2024-03-26",
+          "image": "assets/images/players/nikhil_halinge.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/fkdrgpvz1y",
+          "dp": "assets/images/players/dp/nikhil_halinge.jpg"
+        },
+        {
+          "id": "pavan_joshi",
+          "name": "Pavan Joshi",
+          "dcbId": "DCB0M65540",
+          "dateOfBirth": "1989-08-20",
+          "validFrom": "21.4.2022",
+          "image": "assets/images/players/pavan_joshi.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/xocep1xxx",
+          "dp": "assets/images/players/dp/pavan_joshi.jpg"
+        },
+        {
+          "id": "prafull_toke",
+          "name": "Prafull Toke",
+          "dcbId": "DCB0M27597",
+          "dateOfBirth": "1984-11-16",
+          "validFrom": "2022-04-21",
+          "image": "assets/images/players/prafull_toke.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/we0i79f0h4",
+          "dp": "assets/images/players/dp/prafull_toke.jpg"
+        },
+        {
+          "id": "pramod_pandey",
+          "name": "Pramod Pandey",
+          "dcbId": "DCB0M35380",
+          "dateOfBirth": "1966-08-03",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/pramod_pandey.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/7e44wxlype",
+          "dp": "assets/images/players/dp/pramod_pandey.jpg"
+        },
+        {
+          "id": "pratik_naik",
+          "name": "Pratik Naik",
+          "dcbId": "DCB0M12093",
+          "dateOfBirth": "1983-01-06",
+          "validFrom": "2022-04-21",
+          "image": "assets/images/players/pratik_naik.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/4umabci79d",
+          "dp": "assets/images/players/dp/pratik_naik.jpg"
+        },
+        {
+          "id": "pritesh_sature",
+          "name": "Pritesh Sature",
+          "dcbId": "DCB0M55498",
+          "dateOfBirth": "1993-04-10",
+          "validFrom": "2023-04-13",
+          "image": "assets/images/players/pritesh_sature.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/i8aibttbtv",
+          "dp": "assets/images/players/dp/pritesh_sature.jpg"
+        },
+        {
+          "id": "prithvi_duggirala",
+          "name": "Prithvi Duggirala",
+          "dcbId": "DCB0M34147",
+          "dateOfBirth": "1997-04-19",
+          "validFrom": "2023-04-10",
+          "image": "assets/images/players/prithvi_duggirala.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/22sfhugglb",
+          "dp": "assets/images/players/dp/prithvi_duggirala.jpg"
+        },
+        {
+          "id": "rahul_kumar_mishra",
+          "name": "Rahul Kumar Mishra",
+          "dcbId": "DCB0M56382",
+          "dateOfBirth": "1992-10-26",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/rahul_kumar_mishra.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/icxcln5jz1",
+          "dp": "assets/images/players/dp/rahul_kumar_mishra.jpg"
+        },
+        {
+          "id": "rahul_dave",
+          "name": "Rahul Dave",
+          "dcbId": "DCB0M50949",
+          "dateOfBirth": "1991-10-09",
+          "validFrom": "2022-04-21",
+          "image": "assets/images/players/rahul_dave.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/5c2x80342q",
+          "dp": "assets/images/players/dp/rahul_dave.jpg"
+        },
+        {
+          "id": "raja_babu",
+          "name": "Raja Babu",
+          "dcbId": "DCB0M85576",
+          "dateOfBirth": "1988-04-27",
+          "validFrom": "2023-04-27",
+          "image": "assets/images/players/raja_babu.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/29rr8m5l84",
+          "dp": "assets/images/players/dp/raja_babu.jpg"
+        },
+        {
+          "id": "rakesh_rayineni",
+          "name": "Rakesh Rayineni",
+          "dcbId": "DCB0M26688",
+          "dateOfBirth": "1987-01-27",
+          "validFrom": "2023-05-17",
+          "image": "assets/images/players/rakesh_rayineni.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/mkpi88997z",
+          "dp": "assets/images/players/dp/rakesh_rayineni.jpg"
+        },
+        {
+          "id": "rohit_sodha",
+          "name": "Rohit Sodha",
+          "dcbId": "DCB0M54521",
+          "dateOfBirth": "1981-07-10",
+          "validFrom": "2024-08-01",
+          "image": "assets/images/players/rohit_sodha.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/774op8qox",
+          "dp": "assets/images/players/dp/rohit_sodha.jpg"
+        },
+        {
+          "id": "rounak_suresh_kulkarni",
+          "name": "Rounak Suresh Kulkarni",
+          "dcbId": "DCB0M54409",
+          "dateOfBirth": "1986-03-27",
+          "validFrom": "2024-02-03",
+          "image": "assets/images/players/rounak_suresh_kulkarni.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/16hl82b6mc",
+          "dp": "assets/images/players/dp/rounak_suresh_kulkarni.jpg"
+        },
+        {
+          "id": "sachin_gowda_nagaraja",
+          "name": "Sachin Gowda Nagaraja",
+          "dcbId": "DCB0M17453",
+          "dateOfBirth": "1995-10-25",
+          "validFrom": "2022-07-01",
+          "image": "assets/images/players/sachin_gowda_nagaraja.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/u2hvpmo12",
+          "dp": "assets/images/players/dp/sachin_gowda_nagaraja.jpg"
+        },
+        {
+          "id": "sathish_shanmugam",
+          "name": "Sathish Shanmugam",
+          "dcbId": "DCB0M67071",
+          "dateOfBirth": "1984-08-29",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/sathish_shanmugam.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/nklzv3kbjh",
+          "dp": "assets/images/players/dp/sathish_shanmugam.jpg"
+        },
+        {
+          "id": "shashikant_gaikwad",
+          "name": "Shashikant Gaikwad",
+          "dcbId": "DCB0M69131",
+          "dateOfBirth": "1987-04-06",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/shashikant_gaikwad.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/y6qsfk72gs",
+          "dp": "assets/images/players/dp/shashikant_gaikwad.jpg"
+        },
+        {
+          "id": "somesh_mrityunjaya_huchagondar",
+          "name": "Somesh Mrityunjaya Huchagondar",
+          "dcbId": "DCB0M51129",
+          "dateOfBirth": "1989-08-24",
+          "validFrom": "2023-04-05",
+          "image": "assets/images/players/somesh_mrityunjaya_huchagondar.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/74nlpi63k",
+          "dp": "assets/images/players/dp/somesh_mrityunjaya_huchagondar.jpg"
+        },
+        {
+          "id": "sumeet_nag",
+          "name": "Sumeet Nag",
+          "dcbId": "DCB0M45616",
+          "dateOfBirth": "1982-08-14",
+          "validFrom": "2022-06-04",
+          "image": "assets/images/players/sumeet_nag.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/wfy6s2nuy",
+          "dp": "assets/images/players/dp/sumeet_nag.jpg"
+        },
+        {
+          "id": "vijayshankar_ravishankar",
+          "name": "Vijayshankar Ravishankar",
+          "dcbId": "DCB0M72553",
+          "dateOfBirth": "1996-09-28",
+          "validFrom": "2023-04-11",
+          "image": "assets/images/players/vijayshankar_ravishankar.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/emn2450epz",
+          "dp": "assets/images/players/dp/vijayshankar_ravishankar.jpg"
+        },
+        {
+          "id": "vinay_kumar_kodati",
+          "name": "Vinay Kumar Kodati",
+          "dcbId": "DCB0M53170",
+          "dateOfBirth": "1991-08-17",
+          "validFrom": "2023-04-24",
+          "image": "assets/images/players/vinay_kumar_kodati.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/r8n7s2mpb4",
+          "dp": "assets/images/players/dp/vinay_kumar_kodati.jpg"
+        },
+        {
+          "id": "zeeshan_shaikh",
+          "name": "Zeeshan Shaikh",
+          "dcbId": "DCB0M44213",
+          "dateOfBirth": "1990-05-25",
+          "validFrom": "2022-04-21",
+          "image": "assets/images/players/zeeshan_shaikh.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/8dw4j2hwru",
+          "dp": "assets/images/players/dp/zeeshan_shaikh.jpg"
+        },
+        {
+          "id": "waqaar_ameen",
+          "name": "Waqaar Ameen",
+          "dcbId": "DCB0M99532",
+          "dateOfBirth": "1992-04-24",
+          "validFrom": "2022-05-26",
+          "image": "assets/images/players/waqaar_ameen.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/j036myo8u",
+          "dp": "assets/images/players/dp/waqaar_ameen.jpg"
+        }
+      ]
+    }
+  }
+}

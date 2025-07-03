@@ -1,0 +1,53 @@
+# GitHub Pages Configuration for SVL Cricket Club
+title: "SVL Cricket Club"
+description: "Managing three competitive teams - Reds, Blacks, and Whites with DCB certified players"
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - PLAYER_MANAGEMENT_GUIDE.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Include files that start with underscore
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# SEO settings
+author: SVL Cricket Club
+twitter:
+  username: svl_cricket
+  card: summary
+
+# Social media
+social:
+  name: SVL Cricket Club
+  links:
+    - https://github.com/yourusername/svl-cricket-club
+
+# Collections
+collections:
+  teams:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default" 
