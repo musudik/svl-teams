@@ -392,8 +392,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add smooth scrolling to all anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
+            const href = this.getAttribute('href');
+            // Only handle true internal anchors (e.g. #section), not bare "#" or external URLs
+            if (!href || href === '#' || !href.startsWith('#')) return;
             e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
+            const target = document.querySelector(href);
             if (target) {
                 const offsetTop = target.offsetTop - 80;
                 window.scrollTo({
