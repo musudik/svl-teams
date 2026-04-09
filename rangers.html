@@ -25,6 +25,15 @@
                 <li class="nav-item"><a href="whites.html" class="nav-link"><i class="fas fa-star"></i> <span>Whites</span></a></li>
                 <li class="nav-item"><a href="rangers.html" class="nav-link active"><i class="fas fa-crosshairs"></i> <span>Rangers</span></a></li>
             </ul>
+            <!-- Player Search -->
+            <div class="nav-search" id="nav-search">
+                <div class="search-input-wrap">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="player-search-input" class="player-search-input" placeholder="Search player..." autocomplete="off">
+                    <button class="search-clear" id="search-clear" aria-label="Clear search"><i class="fas fa-times"></i></button>
+                </div>
+                <ul class="search-dropdown" id="search-dropdown"></ul>
+            </div>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -179,5 +188,6 @@
     }
     document.addEventListener('DOMContentLoaded', loadRangers);
     </script>
+    <script src="assets/js/search.js"></script>
 </body>
 </html>

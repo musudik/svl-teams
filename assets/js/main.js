@@ -354,6 +354,12 @@ class SVLCricketClub {
 }
 
 // Global functions for HTML event handlers
+function openPlayerModal(player) {
+    if (window.svlApp) {
+        window.svlApp.openPlayerModal(player.id || player.name);
+    }
+}
+
 function scrollToTeams() {
     const teamsSection = document.getElementById('teams-section');
     if (teamsSection) {
