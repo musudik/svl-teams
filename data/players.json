@@ -26,6 +26,16 @@
           "dp": ""
         },
         {
+          "id": "arun_karthik_ganesan",
+          "name": "Arun Karthik Ganesan",
+          "dcbId": "DCB0M41681",
+          "dateOfBirth": "1985-11-10",
+          "validFrom": "2022-04-20",
+          "image": "assets/images/players/arun_karthik_ganesan.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/o4bw85s6an",
+          "dp": "assets/images/players/dp/arun_karthik_ganesan.jpg"
+        },
+        {
           "id": "avinash_mishra",
           "name": "Avinash Mishra",
           "dcbId": "DCB0M16086",
@@ -242,16 +252,7 @@
           "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/i51dgum8z0",
           "dp": "assets/images/players/dp/siddharth_shankar_narayan.jpg"
         },
-        {
-          "id": "somesh_mrityunjaya_huchagondar",
-          "name": "Somesh Mrityunjaya Huchagondar",
-          "dcbId": "DCB0M51129",
-          "dateOfBirth": "1989-08-24",
-          "validFrom": "2023-04-05",
-          "image": "assets/images/players/somesh_mrityunjaya_huchagondar.jpg",
-          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/74nlpi63k",
-          "dp": "assets/images/players/dp/somesh_mrityunjaya_huchagondar.jpg"
-        },
+       
         {
           "id": "vinay_prakash",
           "name": "Vinay Prakash",
@@ -288,16 +289,6 @@
           "image": "assets/images/players/ankur_bhatia.jpg",
           "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/he8ogwve3x",
           "dp": "assets/images/players/dp/ankur_bhatia.jpg"
-        },
-        {
-          "id": "arun_karthik_ganesan",
-          "name": "Arun Karthik Ganesan",
-          "dcbId": "DCB0M41681",
-          "dateOfBirth": "1985-11-10",
-          "validFrom": "2022-04-20",
-          "image": "assets/images/players/arun_karthik_ganesan.jpg",
-          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/o4bw85s6an",
-          "dp": "assets/images/players/dp/arun_karthik_ganesan.jpg"
         },
         {
           "id": "datta_malyala_venkatasri",
@@ -398,6 +389,16 @@
           "image": "assets/images/players/sathish_shanmugam.jpg",
           "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/nklzv3kbjh",
           "dp": "assets/images/players/dp/sathish_shanmugam.jpg"
+        },
+        {
+          "id": "somesh_mrityunjaya_huchagondar",
+          "name": "Somesh Mrityunjaya Huchagondar",
+          "dcbId": "DCB0M51129",
+          "dateOfBirth": "1989-08-24",
+          "validFrom": "2023-04-05",
+          "image": "assets/images/players/somesh_mrityunjaya_huchagondar.jpg",
+          "dcbProfileUrl": "https://dcb-spielerpass.de/player-qr-code/74nlpi63k",
+          "dp": "assets/images/players/dp/somesh_mrityunjaya_huchagondar.jpg"
         },
         {
           "id": "vijayshankar_ravishankar",
