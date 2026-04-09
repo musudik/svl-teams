@@ -225,17 +225,14 @@ class SVLCricketClub {
     }
 
     getPlayerStatus(player) {
-        // Check if player has valid dates
-        if (player.validFrom && player.validTo) {
-            const now = new Date();
-            const validFrom = new Date(player.validFrom);
-            const validTo = new Date(player.validTo);
-            
-            if (now >= validFrom && now <= validTo) {
-                return 'Active';
-            }
-        }
-        return 'Inactive';
+        if (!player.validFrom) return 'Inactive';
+        const now = new Date();
+        const validFrom = new Date(player.validFrom);
+        if (isNaN(validFrom.getTime()) || now < validFrom) return 'Inactive';
+        // If no validTo, player is active indefinitely
+        if (!player.validTo) return 'Active';
+        const validTo = new Date(player.validTo);
+        return (!isNaN(validTo.getTime()) && now <= validTo) ? 'Active' : 'Inactive';
     }
 
     updateHeroStats() {
