@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SV Lohhof Cricket - Blacks Team</title>
+    <title>SV Lohhof Cricket - Rangers Team</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -14,17 +14,16 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="/" class="nav-link">
+                <a href="https://musudik.github.io/svl-teams/" class="nav-link">
                     <img src="assets/images/Logo2.png" alt="SVL Cricket Club" class="logo-nav">
                     <span class="club-name">SV Lohhof Cricket</span>
                 </a>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="reds.html" class="nav-link"><i class="fas fa-fire"></i> <span>Reds</span></a></li>
-                <li class="nav-item"><a href="blacks.html" class="nav-link active"><i class="fas fa-shield-alt"></i> <span>Blacks</span></a></li>
+                <li class="nav-item"><a href="blacks.html" class="nav-link"><i class="fas fa-shield-alt"></i> <span>Blacks</span></a></li>
                 <li class="nav-item"><a href="whites.html" class="nav-link"><i class="fas fa-star"></i> <span>Whites</span></a></li>
-                <li class="nav-item"><a href="rangers.html" class="nav-link"><i class="fas fa-crosshairs"></i> <span>Rangers</span></a></li>
-                <!-- <li class="nav-item"><a href="index.html#contact" class="nav-link"><i class="fas fa-envelope"></i> <span>Contact</span></a></li> -->
+                <li class="nav-item"><a href="rangers.html" class="nav-link active"><i class="fas fa-crosshairs"></i> <span>Rangers</span></a></li>
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
@@ -35,22 +34,22 @@
     </nav>
 
     <!-- Team Header -->
-    <section class="team-section blacks-section" style="padding-top: 120px;">
+    <section class="team-section rangers-section" style="padding-top: 120px;">
         <div class="container">
             <div class="team-header">
                 <div class="team-title">
-                    <i class="fas fa-shield-alt team-icon"></i>
-                    <h2>BLACKS TEAM</h2>
-                    <p class="team-motto">Strength & Unity</p>
+                    <i class="fas fa-crosshairs team-icon"></i>
+                    <h2>RANGERS TEAM</h2>
+                    <p class="team-motto">Swift & Fearless</p>
                 </div>
                 <div class="team-stats">
                     <div class="team-count">
-                        <span class="count-number" id="blacks-count">0</span>
+                        <span class="count-number" id="rangers-count">0</span>
                         <span class="count-label">Players</span>
                     </div>
                 </div>
             </div>
-            <div class="players-grid" id="blacks-grid">
+            <div class="players-grid" id="rangers-grid">
                 <!-- Players will be loaded here -->
             </div>
         </div>
@@ -116,22 +115,20 @@
     </div>
 
     <script>
-    // Minimal JS to load only Blacks players
     let players = [];
-    async function loadBlacks() {
+    async function loadRangers() {
         document.getElementById('loading-overlay').style.display = 'flex';
         const res = await fetch('data/players.json');
         const data = await res.json();
-        players = data.teams.blacks.players;
-        document.getElementById('blacks-count').textContent = players.length;
-        const grid = document.getElementById('blacks-grid');
+        players = data.teams.rangers.players;
+        document.getElementById('rangers-count').textContent = players.length;
+        const grid = document.getElementById('rangers-grid');
         grid.innerHTML = '';
         players.sort((a, b) => a.name.localeCompare(b.name));
-        players.forEach((player, idx) => {
+        players.forEach((player) => {
             const card = document.createElement('div');
             card.className = 'player-card';
             card.dataset.playerId = player.id;
-            // Use a random placeholder QR code for now
             const qrCode = player.dcbProfileUrl;
             card.innerHTML = `
                 <div class="player-image">
@@ -145,29 +142,24 @@
                 </a>
             `;
             card.onclick = () => openPlayerModal(player);
-            
-            // Add click handler to Spielerpass link to prevent modal opening
             const spielerpassLink = card.querySelector('.spielerpass-link');
             spielerpassLink.addEventListener('click', (e) => {
                 e.stopPropagation();
             });
-            
             grid.appendChild(card);
         });
         document.getElementById('loading-overlay').style.display = 'none';
     }
     function openPlayerModal(player) {
-        // Always reset modal opacity and display
         const modal = document.getElementById('player-modal');
         modal.style.opacity = '0';
         modal.style.display = 'flex';
         setTimeout(() => { modal.style.opacity = '1'; }, 10);
         document.body.style.overflow = 'hidden';
-        // Always update modal content
         document.getElementById('modal-player-image').src = player.image;
         document.getElementById('modal-player-name').textContent = player.name;
         document.getElementById('modal-player-dcb').textContent = player.dcbId;
-        document.getElementById('modal-player-team').textContent = 'Blacks';
+        document.getElementById('modal-player-team').textContent = 'Rangers';
         document.getElementById('modal-player-status').textContent = 'Active';
         document.getElementById('modal-dcb-link').href = player.dcbProfileUrl;
     }
@@ -177,7 +169,6 @@
         setTimeout(() => {
             modal.style.display = 'none';
             document.body.style.overflow = 'auto';
-            // Optionally clear modal content
             document.getElementById('modal-player-image').src = '';
             document.getElementById('modal-player-name').textContent = '';
             document.getElementById('modal-player-dcb').textContent = '';
@@ -186,7 +177,7 @@
             document.getElementById('modal-dcb-link').href = '#';
         }, 300);
     }
-    document.addEventListener('DOMContentLoaded', loadBlacks);
+    document.addEventListener('DOMContentLoaded', loadRangers);
     </script>
 </body>
-</html> 
+</html>

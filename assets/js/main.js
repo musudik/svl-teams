@@ -109,6 +109,7 @@ class SVLCricketClub {
         this.renderTeam('reds');
         this.renderTeam('blacks');
         this.renderTeam('whites');
+        this.renderTeam('rangers');
     }
 
     renderTeam(teamName) {
